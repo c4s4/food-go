@@ -13,8 +13,6 @@ import (
 )
 
 const (
-	// DbConfig = "host=localhost port=5432 user=postgres dbname=pur_beurre sslmode=disable"
-	DbConfig = "host=localhost port=5432 user=jeff dbname=pur_beurre sslmode=disable"
 	SqlFood  = `
 		SELECT
 			id,
